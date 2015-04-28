@@ -23,7 +23,7 @@ OpenCV，libsvm
     |   |—— OpenCVtrain.txt  训练数据<br>
     
 ###java包名：
-src<br>
+    src
     |—— libsvm libsvm源码包
     |
     |—— main 训练函数和预测函数入口包

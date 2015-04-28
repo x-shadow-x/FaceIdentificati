@@ -11,8 +11,8 @@ OpenCV，libsvm
 3、使用libsvm对采集的数据进行训练得到分类模型以达到对特定人物的识别与报警。<br>
 ###根目录结构：
 |——OpenCV<br>
-|  |——src  java源代码<br>
-|  |——cascade  存放opencv的人脸识别模型文件<br>
+|>>|——src  java源代码<br>
+|>>|——cascade  存放opencv的人脸识别模型文件<br>
 |  |——libs 存放程序中使用到的各种jar文件和动态链接库<br>
 |  |——out  存放训练图片，训练时采集程序每次采集一个人的多张图像存到此文件夹下，要手动收取图片<br>
 |  |——train  将out中收集的图片按每个人一个文件夹的格式保存到此文件夹下以备训练并以文件夹名做类标号<br>
@@ -22,7 +22,7 @@ OpenCV，libsvm
 |  |——OpenCVtest.txt  测试数据<br>
 |  |——OpenCVtrain.txt  训练数据<br>
 ###java包名：
-src
+src<br>
   |—— libsvm libsvm源码包<br>
   |<br>
   |—— main 训练函数和预测函数入口包<br>

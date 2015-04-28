@@ -24,18 +24,18 @@ OpenCV，libsvm
     
 ###java包名：
 src<br>
-    |—— libsvm libsvm源码包<br>
-    |<br>
-    |—— main 训练函数和预测函数入口包<br>
-    |   |—— PredictMain.java<br>
-    |   |—— TrainMain.java<br>
-    |<br>
-    |—— pretreatment 预处理包<br>
-    |   |—— FaceCollector.java 调用摄像头采集需要进行训练的人脸数据<br>
-    |   |—— TestData.java 开发时，曾用来将采集的测试图片转化为libsvm格式的数据(现在不用管啦~保留以后学习)<br>
-    |   |—— TrainData.java 将采集的训练图片转化为libsvm指定的格式的数据文件以便进行训练<br>
-    |<br>
-    |—— svm libsvm源码包和上面的libsvm包类似~包含的都是libsvm自带的一些底层的实现<br>
-    |<br>
-    |—— test 开发程序时用来测试猜想和各种函数的用法的（个人习惯~不用管它啦）<br>
+    |—— libsvm libsvm源码包
+    |
+    |—— main 训练函数和预测函数入口包
+    |   |—— PredictMain.java
+    |   |—— TrainMain.java
+    |
+    |—— pretreatment 预处理包
+    |   |—— FaceCollector.java 调用摄像头采集需要进行训练的人脸数据
+    |   |—— TestData.java 开发时，曾用来将采集的测试图片转化为libsvm格式的数据(现在不用管啦~保留以后学习)
+    |   |—— TrainData.java 将采集的训练图片转化为libsvm指定的格式的数据文件以便进行训练
+    |
+    |—— svm libsvm源码包和上面的libsvm包类似~包含的都是libsvm自带的一些底层的实现
+    |
+    |—— test 开发程序时用来测试猜想和各种函数的用法的（个人习惯~不用管它啦
 
